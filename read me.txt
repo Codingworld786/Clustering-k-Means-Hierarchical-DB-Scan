@@ -1,0 +1,13 @@
+Approach which we followed in this project: 
+Import necessary  libraries
+Data analysis
+Checked Null values: (There are no missing data. This simplifies the analysis but it is a very unlikely scenario in a real-life where analysts spend a significant amount of time cleaning their data before the core analysis is performed)
+Then we performed EDA : This section contains a basic statistical investigation of a given database. It is a crucial point in any analysis as it allows for a better understanding of the underlying data. This part has two main sections: distributions and correlations.
+Distributions: In this distributions of numerical variables will be investigated in detail. Data will be stratified by gender - the only categorical variable.
+Basically We draw  histograms on the basis of Gender for :
+For Age 2. For Annual Income  3. For Spending score
+then we got some observations from plots:
+from first plot :
+1. Kolgomorov-Smirnov test  (for age) p-value: 0.49 (>0.05) means both distributions(age distribution for males and females) belong to same distribution
+2.Kolgomorov-Smirnov test p-value: 0.78(same distribution)
+3. Kolgomorov-Smirnov test p-value: 0.29 (same distribution)
